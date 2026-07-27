@@ -1,7 +1,34 @@
 aid: fuchsia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fuchsia.png
 name: Fuchsia
-description: Fuchsia is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fuchsia is an AI-native hardware certification and compliance platform ("Vanta
+  for hardware") that helps hardware teams get products to market faster by
+  streamlining regulatory testing and certification. The platform maps the
+  applicable standards for a product (FCC, CE, UL, FDA 510(k), ISO, RF & EMC,
+  environmental, and functional-safety categories), auto-generates the lab-ready
+  technical documentation and test plans required for certification, connects
+  teams with qualified testing labs specialized in their product category, and
+  tracks compliance progress to surface blockers early. Fuchsia uses AI agents to
+  manage the compliance workflow end to end — from design through testing and
+  certification — including direct communication with testing labs, aiming to
+  democratize regulatory compliance that has traditionally favored larger
+  companies with dedicated compliance teams. Founded in 2025 and part of the Y
+  Combinator Spring 2026 batch, Fuchsia is based in the San Francisco Bay Area and
+  targets robotics, medical-device, IoT, and consumer-hardware builders. This
+  API Evangelist profile was surfaced as a Y Combinator portfolio company; as of
+  this enrichment pass Fuchsia publishes no public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/fuchsia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +36,48 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-batch: Spring 2026
+x-founded: '2025'
+x-location: San Francisco Bay Area
+x-founder: Tony Gao
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Hardware
+- Certification
+- Compliance
+- Regulatory
+- Testing
+- Hardware Compliance
+- AI Agents
+- Robotics
+- Medical Devices
+- IoT
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fuchsia-domain-security.yml
+- type: Website
+  url: https://getfuchsia.ai/
+- type: Blog
+  url: https://getfuchsia.ai/blog
+- type: Support
+  url: https://getfuchsia.ai/faq
+- type: TermsOfService
+  url: https://app.termly.io/policy-viewer/policy.html?policyUUID=b71d0fa1-cf36-4bad-8599-5dec55702c00
+- type: PrivacyPolicy
+  url: https://app.termly.io/policy-viewer/policy.html?policyUUID=13137fba-ebd8-4ec8-8378-a3a1d5a53dde
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getfuchsia
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
